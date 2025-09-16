@@ -1,8 +1,9 @@
 # !/bin/bash
 PROJECT_ID=$(gcloud config get-value project)
 export INSTANCE_NAME='menu-catalog'
-export DB_REGION="us-east1"
-export COMPUTE_SA="151943550877-compute@developer.gserviceaccount.com"
+export DB_REGION="us-central1"
+# Everytime new environment deployed this SA needs to be updated:
+export COMPUTE_SA="838199965701-compute@developer.gserviceaccount.com"
 
 echo "☁️ Enabling the Cloud SQL API..."
 gcloud config set project ${PROJECT_ID}
