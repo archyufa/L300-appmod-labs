@@ -2,10 +2,9 @@
 
 # Variables
 PROJECT_ID=$(gcloud config get-value project)
-CLUSTER_NAME="cepf-gke-cymbal-01-ap"
-# Qwiklabs will give you a zone to use in the instructions once the environment is provisioned. Use that zone here.
-REGION="us-west1" # use Zone given to you by qwiklabs
-
+CLUSTER_NAME="cymbal-gke-cymbal-01-ap"
+# Qwiklabs will give you a region to use in the instructions once the environment is provisioned. Use that region here.
+REGION="us-west1" # use Region given to you by qwiklabs
 
 
 # 0. Create a Fleet
